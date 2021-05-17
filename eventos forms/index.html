@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--onsubmit seria quando for enviado o form, acontece algo na tela-->
+    <form onsubmit="alert('Foi')">
+    <!--onfocus é quando o campo está ativo/focado por exemplo um textbox clicado, 
+        o onblur seria o contario do onfocus-->
+    <input type="text" onfocus="focado()" onblur="desfocou()">
+    <br>
+        <select name="herois" onchange="opa(this)">
+        <!--O onchange seria quando escolhesse alguma opção do select, uma ação é feita, pra pegar
+        o valor da opção sselecionada adiciona o paramentro this na função-->
+        <option value="brabo">1</option>
+        <option value="brabissimo">2</option>
+        <option value="super brabo">3</option>
+    </select>
+    <br>
+<input type="submit" value="opa" >
+</form>
+
+
+
+</body>
+</html>
