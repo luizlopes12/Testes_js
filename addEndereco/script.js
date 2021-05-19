@@ -1,9 +1,5 @@
 function end(dados){
-    const endereco = {
-        cidade: dados.cidade, 
-        estado: dados.estado, 
-        pais:'Brasil'
-    };
-    let {cidade, estado, pais} = endereco;
+    let {cidade, estado} = dados;
+    let pais = 'Brasil'
     console.log(`Endereço: ${cidade} - ${estado}, ${pais}`)
 }
