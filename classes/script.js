@@ -1,12 +1,3 @@
-export class animal{
-    constructor(tipo, pernas)
-    {
-        this.tipo = tipo;
-        this.pernas = pernas;
-    }
-
-    barulho(som = 'Som qualquer'){
-        return som;
-    }
-
-}
+import { animal } from "./class";
+var cachorro = new animal('gato', 4);
+console.log(cachorro.barulho('uepa'));
