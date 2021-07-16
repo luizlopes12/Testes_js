@@ -6,16 +6,17 @@ body{
 }
 .bola{
     background-color: rgb(15, 171, 219);
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
     position: absolute;
     z-index: 0;
 }
 #contador{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
     color: #ffffff;
     font-size: 1.5em;
+    width: 100%;
+    z-index: 99999;
     text-align: center;
 }
